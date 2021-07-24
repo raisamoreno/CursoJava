@@ -1,0 +1,13 @@
+*--------------------------* DEBUGAR NO ECLIPSE *--------------------------*
+
+1. BREAKPOINT
+--> É o ponto a partir do qual eu desejo fazer a depuração do meu código. Antes dele, o código vai rodar normalmente.
+
+1.1. MARCAR UMA LINHA DE BREAKPOINT
+	Run -> Toggle Breakpoint
+	
+1.2. INICIAR O DEBUG
+	Botão direito na classe -> Debug as -> Java Application
+	
+1.3. EXECUTAR UMA LINHA DEPOIS DO DEBUG:
+	F6 ou botão <Step Over>

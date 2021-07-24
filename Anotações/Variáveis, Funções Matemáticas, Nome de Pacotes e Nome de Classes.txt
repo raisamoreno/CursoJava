@@ -1,0 +1,93 @@
+*--------------------------* ANOTAÇÕES DO CURSO DE JAVA *--------------------------*
+
+https://unicode-table.com/pt/
+
+1. VARIÁVEIS
+
+1.1. A variável é uma porção da memória RAM usada para armazernar dados durante a execução de um programa.
+
+1.2. Os tipos de dados FLOAT e DOUBLE são usados para guardar números reais.
+FLOAT: precisão de 6 casas decimais.
+DOUBLE: precisão de 10 casas decimais.
+
+1.3. Os tipos de dados STRING e CHAR são para guardar caracteres.
+CHAR: armazena um único caracteres. Uso aspas simples.
+STRING: armazena uma cadeia de caracteres. Uso aspas duplas.
+
+1.4. Declaração de variáveis em Java:
+	<tipo> <nome da variável> = <valor inicial(opcional)>;
+		exemplo:
+		int idade = 25;
+		double altura = 1.68;
+		char sexo = 'F';
+		
+1.5. Regrinhas importantes para declaração de variáveis:
+	- não pode comecar com numéros (usar uma letra ou um underline);
+	- não pode ter espaço em branco;
+	- não usar acentos ou til;
+	- usar, de preferência, o padrão camel case: nomeDaVariavel.
+
+
+1.6. Marcadores importantes para variáveis:
+%f --> para flutuantes
+%d --> para inteiros
+%s --> para texto
+%n --> quebra de linha
+
+1.6.1 Exemplos:
+
+No código 
+
+		String nome = "Maria";
+		int idade = 31;
+		double renda = 4000.75;
+		System.out.printf("%s tem %d anos e ganha R$ %.2f reais de salário. %n", nome, idade, renda);
+
+		
+
+A saída será: 
+Maria tem 31 anos e ganha R$ 4000,75 reais de salário.
+
+1.7. Escopo e inicialização (aula 41)
+--> Uma variável não pode ser usada se não for iniciada.
+
+--> Escopo de uma variável: é a região do programa onde a variável é válida, ou seja, onde ela pode ser referenciada.
+Se uma variável for declarada dentro de uma estrutura (else-if, switch-case, repetitivas etc.), ela só poderá ser utilizada 
+dentro daquela estrutura.
+
+
+2. FUNÇÕES MATEMÁTICAS EM JAVA
+
+A = Math.sqrt(x); --> Variável A recebe a raiz quadrada de x
+A = Math.pow(x, y); --> Variável A recebe o resultado de x elevado a y
+A = Math.abs(x); --> Variável A recebe o valor absoluto de x
+
+* valor absoluto é o valor nao negativo nem positivo de um número.
+Por exemplo: o valor absoluto de -5 é 5 e o valor absoluto de 4 é 4.
+		
+		
+
+
+3. NOME DE CLASSES 
+
+Para nomearmos uma classe em Java devemos seguir as seguintes regras:
+
+- Toda classe deve começar com letra Maiúscula.
+- Não deve possuir caracteres com acento (ç, á, î, ã, Á, À).
+- Não deve possuir caracteres especias (@, !, %, &).
+- Caso um classe possua um nome composto, a primeira letra de cada palavra deverá começar com  letra maiúscula.
+
+--> Exemplos: PrimeiraClasse, MinhaClasse, OlaMundo
+
+
+4. NOMES DE PACOTES
+Nomes de pacotes devem começar com a primeira letra em minúscula.
+Jamais devemos iniciar o nome de um pacote com caracteres especiais (@, #, $, %, &, *, _, etc…) ou um número.
+Caso o nome de um pacote seja composto por mais de uma palavra, a primeira letra da segunda palavra
+e das palavras posteriores deve ser em maiúscula.
+
+--> Exemplos: modelo, controle, conexaoDeBancoDeDados
+
+4.1. Criar um pacote dentro de outro
+
+pacotePrincipal.pacoteSecundario

@@ -1,0 +1,33 @@
+*--------------------------* ESTRUTURA REPETITIVA *--------------------------*
+1. ESTRUTURAS REPETITIVAS
+1.1. ESTRUTURA REPETITIVA "ENQUANTO" (WHILE)
+--> Uma estrutura de controle que executa determinado bloco de comandos enquanto uma condição for verdadeira;
+--> É usada quando NÃO se sabe previamente a quantidade de repetições a serem realizadas.
+
+1.1.1 SINTAXE
+
+while (condição) {
+	comando 1
+	comando 2
+}
+
+--> A regra é: enquanto a condição for verdadeira, o bloco de comandos é executado e volta à checagem da condição.
+Quando for falsa, o bloco de comandos para de ser executado e a estrutura é encerrada.
+
+
+
+
+1.2. ESTRUTURA REPETITIVA "PARA" (FOR)
+--> Estrutura de controle que repete um bloco de comandos para um certo intervalo de valores;
+--> É usada quando se sabe previamente a quantidade de repetições ou intervalo de valores.
+
+1.2.1 SINTAXE
+
+for ( início ; condição ; incremento) {
+	comando 1
+	comando 2
+}
+
+---> Início: Executa somente na primeira vez;
+---> Condição: V: executa e volta /F: pula fora;
+---> Incremento: executa toda vez depois de voltar.

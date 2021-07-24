@@ -1,0 +1,91 @@
+*--------------------------* ESTRUTURA CONDICIONAL *--------------------------*
+
+1. O QUE É ESTRUTURA CONDICIONAL
+--> Uma estrutura que permite definir se determinado bloco de comandos será executado, dependendo de determinada condição.
+
+2. SINTAXE DA ESTRUTURA CONDICIONAL
+
+2.1. SIMPLES:
+if (<condição>) {
+	<comando 1>
+	<comando 2>
+}
+
+2.2. COMPOSTA:
+
+if (<condição>) {
+	<comando 1>
+	<comando 2>
+}
+else {
+	<comando 3>
+	<comando 4>
+}
+
+2.3. SWITCH-CASE
+
+switch ( expressão ) {
+case valor1:
+	comando1
+	comando2
+	break;
+case valor2:
+	comando3
+	comando4
+	break;
+default:
+	  comando5
+	  comando6
+	break;
+}
+
+2.4. EXPRESSÃO CONDICIONAL TERNÁRIA
+
+( condição ) ? valor_se_verdadeiro : valor_se_falso
+
+
+
+3. ENCADEAMENTO DE ESTRUTURAS CONDICIONAIS
+
+if ( condição 1 ) {
+	comando 1
+	comando 2
+}
+else {
+	if ( condição 2 ) {
+		comando 3
+		comando 4
+	}
+	else {
+	comando 5
+	comando 6
+	}
+}
+
+4. OPERADORES
+
+4.1. OPERADORES ARITMÉTICOS
+
+|*OPERADOR*|*SIGNIFICADO*  |
+|  >       | maior         |
+|  <       | menor         |
+|  >=      | maior ou igual|
+|  <=      | menor ou igual|
+|  ==      | igual         |
+|  !=      | diferente     |
+
+4.2. OPERADORES LÓGICOS
+
+|*OPERADOR*|*SIGNIFICADO*|
+|	&&     |      E      |
+|   || 	   |      OU     |
+|   !      |      NÃO    |
+
+4.3. OPERADORES DE ATRIBUIÇÃO CUMULATIVA
+
+|*EXPRESSÃO*|*EQUIVALE A:*|
+|  a += b;  | a = a + b;  |
+|  a -= b;  | a = a - b;  |
+|  a *= b;  | a = a * b;  |
+|  a /= b;  | a = a / b;  |
+|  a %= b;  | a = a % b;  |

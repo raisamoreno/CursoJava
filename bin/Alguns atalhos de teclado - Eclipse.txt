@@ -1,0 +1,13 @@
+*--------------------------* ATALHOS DE TECLADO - ECLIPSE *--------------------------*
+
+1. System.out.println(); --> sysout + Ctrl + Espaço
+
+2. Autoidentação do código --> Ctrl + Shift + F 
+
+3. public static void main(String[] args) {} --> main + Ctrl + Espaço
+	
+4. Alterar o nome de um pacote --> Alt + Shift + R
+
+5. Comentar uma linha --> Ctrl + Shift + C
+
+6.
