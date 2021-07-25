@@ -21,8 +21,10 @@ public class Exercicio6 {
 			switch (sexo) {
 			case "F":
 				somaFeminino += 1;
+				break;
 			case "M":
 				somaMasculino += 1;
+				break;
 			}
 			
 			System.out.println("Insira o sexo ('M' ou 'F'): ");
