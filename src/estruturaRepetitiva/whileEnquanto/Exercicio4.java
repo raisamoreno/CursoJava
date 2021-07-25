@@ -2,9 +2,10 @@ package estruturaRepetitiva.whileEnquanto;
 
 import java.util.Scanner;
 
-public class Exercicio4 {
 //Ler vários números e informar quantos números entre 100 e 200 foram digitados. 
 //Quando o valor zero for lido, o programa deverá cessar sua execução.
+
+public class Exercicio4 {
 
 	public static void main(String[] args) {
 
@@ -28,6 +29,7 @@ public class Exercicio4 {
 		}
 
 		System.out.printf("Foram digitados %d números entre 100 e 200.", soma);
+		
 		sc.close();
 
 	}

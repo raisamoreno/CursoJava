@@ -4,10 +4,14 @@ import java.util.Scanner;
 
 public class SwitchCase {
 	public static void main(String[] args) {
+		
 		System.out.println("Insira o código:");
+		
 		Scanner sc = new Scanner(System.in);
 		int x = sc.nextInt();
+		
 		String dia;
+		
 		switch (x) {
 		default:
 			dia = "valor invalido";
@@ -34,7 +38,9 @@ public class SwitchCase {
 			dia = "sabado";
 			break;
 		}
+		
 		System.out.println("Dia da semana: " + dia);
+		
 		sc.close();
 	}
 }

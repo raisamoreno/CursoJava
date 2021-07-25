@@ -12,8 +12,6 @@ public class Exercicio5 {
 				System.out.printf("O número %d é par. %n", i);
 				
 			} 
-			
 		}
 	}
-
 }
